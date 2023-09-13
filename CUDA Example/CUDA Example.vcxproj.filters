@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Common">
+      <UniqueIdentifier>{a186a76a-ba22-4e12-b5e9-1a5917fe290b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CUDA">
+      <UniqueIdentifier>{9a4e2267-a955-4c69-bc3a-1b453a4e65b5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CPP">
+      <UniqueIdentifier>{0bb86f51-df2b-48ee-88f4-1da3e65e3fcd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Practice">
+      <UniqueIdentifier>{a71b26b8-d33c-4a4c-b2db-7d3a3550a500}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="common.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Timer.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel.cuh">
+      <Filter>CUDA</Filter>
+    </ClInclude>
+    <ClInclude Include="cuda_definition.cuh">
+      <Filter>CUDA</Filter>
+    </ClInclude>
+    <ClInclude Include="func.h">
+      <Filter>CPP</Filter>
+    </ClInclude>
+    <ClInclude Include="Practice.h">
+      <Filter>Practice</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Timer.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="func.cpp">
+      <Filter>CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Practice.cpp">
+      <Filter>Practice</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CudaCompile Include="kernel.cu">
+      <Filter>CUDA</Filter>
+    </CudaCompile>
+  </ItemGroup>
+</Project>
